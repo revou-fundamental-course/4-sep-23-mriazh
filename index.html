@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persegi Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hitung Luas & Keliling Persegi</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Masukkan Panjang Sisi</h2>
+            <img src="https://cilacapklik.com/wp-content/uploads/2020/09/Rumus-Luas-Dan-Keliling-Persegi.png" alt="Square Image" id="squareImage">
+            <form id="squareForm">
+                <label for="sideLength">Panjang Sisi:</label>
+                <input type="number" id="sideLength" name="sideLength" required>
+                <button type="submit" id="calculateButton">Hitung</button>
+            </form>
+        </section>
+
+        <section id="resultSection" style="display: none;">
+            <h2>Hasil Perhitungan</h2>
+            <p>Luas: <span id="areaResult"></span></p>
+            <p>Keliling: <span id="perimeterResult"></span></p>
+        </section>
+        <section id="menuSection">
+            <h2>Pilih Operasi</h2>
+            <label>
+                <input type="radio" name="operation" value="area" checked>
+                Hitung Luas
+            </label>
+            <label>
+                <input type="radio" name="operation" value="perimeter">
+                Hitung Keliling
+            </label>
+        </section>
+        
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

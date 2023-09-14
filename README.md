@@ -9,7 +9,7 @@ Website Kalkulator Matematik (Persegi)
 
 1. Preparations and Submission Details
 -   The deadline will be on Thursday in 2nd week at 23.59 (WIB)
--   Link to submit the assignment here (will be opened on Wednesday week 2) 
+-   Link to submit the assignment [here](https://rebrand.ly/FCSWE-miniproject) (will be opened on Wednesday week 2) 
 
 2. Introduction <br/>
 In this ten-day short course, you’ll learn all about becoming a software engineer, including the career path possibilities. We’ll also give you the opportunity to practice the main responsibilities of a software engineer as well!<br/><br/>
@@ -41,8 +41,8 @@ Design is only reference, you can improve for your own design but you must have 
 - Please only put only 1 css for the entirety of the project
 - Put javascript files inside the js/ folder
 - Please put only 1 javascript file for the entirety of the project
-- After finish your website, upload Source Code in GitHub Classroom and publish the website in Github Pages
-- Submit URL repository and published website through dedicated Typeform submission that will be opened on Wednesday week 2<br/><br/>
+- After finish your website, upload Source Code in  [GitHub Classroom](https://rebrand.ly/fcse-github) and publish the website in [Github Pages](https://pages.github.com/)
+- Submit URL repository and published website through dedicated [Typeform submission](https://rebrand.ly/FCSWE-miniproject) that will be opened on Wednesday week 2<br/><br/>
 Expected file structure:
 
 ![alt text](https://i.ibb.co/3f7xmzW/image.png)
