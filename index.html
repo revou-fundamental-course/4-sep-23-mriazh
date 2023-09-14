@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penghitung Persegi</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/qdzhXby/logo-penghitung-2.png" alt="logo" border="0" />
+            <h1>Penghitung <span>Bangun Datar</span></h1>
+        </div>
+    </header>
+    <main>
+        <section class="first">
+            <p>keliling dan luas</p>
+            <p>&nbsp>>&nbsp</p>
+            <p>persegi</p>
+        </section>
+        <section class="second">
+            <h2>Keliling dan Luas Persegi</h2>
+            <div class="pict-info">
+                <img src="https://i.ibb.co/xmZ8HYQ/persegi.png" alt="persegi">
+                <table class="info">
+                    <tbody>
+                        <tr>
+                            <td>a</td>
+                            <td>Sisi</td>
+                        </tr>
+                        <tr>
+                            <td>q</td>
+                            <td>Diagonal</td>
+                        </tr>
+                        <tr>
+                            <td>K</td>
+                            <td>Keliling</td>
+                        </tr>
+                        <tr>
+                            <td>L</td>
+                            <td>Luas</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <form>
+                <label for="sisi">Masukkan nilai sisi:</label>
+                <input type="number" id="sideLength" name="sideLength" required>
+                <button type="submit" id="calc">Hitung</button>
+            </form>
+            <div id="result">
+                <h3>Hasil Perhitungan:</h3>
+                <p>Keliling :<span id="perimeterResult"></span></p>
+                <p>Luas :<span id="areaResult"></span></p>
+            </div>
+            <div id="option">
+                <h4>Pilih Operasi</h4>
+                <label>
+                    <input type="radio" name="operation" value="perimeter">
+                    Keliling
+                </label>
+                <label>
+                    <input type="radio" name="operation" value="area">
+                    Luas
+                </label>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <img src="https://i.ibb.co/qdzhXby/logo-penghitung-2.png" alt="logo" border="0" />
+            <h1>Penghitung <span>Bangun Datar</span></h1>
+        </div>
+        <div class="end">
+            <p>Senang menerima kritik dan saran anda</p>
+            <p>mriyadhazhar.work@gmail.com</p>
+            <p>&copy; 2023 mriazh</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
