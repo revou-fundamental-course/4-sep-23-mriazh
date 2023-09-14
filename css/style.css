@@ -187,13 +187,13 @@ header, footer{
 
 main{
     width: 75%;
-    background-color: wheat;
+    background-color: white;
     margin: auto;
     padding: 10px;
 }
 
 .first{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     margin: 10px auto;
 }
@@ -203,7 +203,7 @@ main{
 }
 
 .second{
-    background-color: bisque;
+    /* background-color: bisque; */
 }
 
 .second h2{
@@ -217,12 +217,17 @@ main{
 
 .pict-info{
     display: flex;
-    margin: 5% 10%;
+    margin: 5% auto;
+    justify-content: center;
+}
+
+.pict-info img{
+    margin: 0 5%;
 }
 
 .info{
     border: 1px solid #aaa;
-    margin: auto 10%;
+    margin: 0 5%;
 }
 
 .info td{
@@ -230,7 +235,7 @@ main{
     padding: 10px;
 }
 
-.second form{
+#squareForm{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -238,18 +243,20 @@ main{
     text-align: center;
 }
 
-.second form > input{
+#squareForm input{
     border-radius: 5px;
     border: 1px solid #ccc;
     margin: 10px 0;
 }
 
-.second form > button{
+#squareForm button{
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
-
+#option{
+    text-align: center;
+}
 
 
 
@@ -258,4 +265,12 @@ main{
     width: 75%;
     margin: auto;
     color: antiquewhite;
+}
+
+.end p:nth-child(1), .end p:nth-child(2){
+    margin: 10px auto;
+}
+
+.end p:nth-child(3), .end p:nth-child(4){
+    text-align: center;
 }

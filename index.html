@@ -44,12 +44,12 @@
                     </tbody>
                 </table>
             </div>
-            <form>
-                <label for="sisi">Masukkan nilai sisi:</label>
+            <form id="squareForm">
+                <label for="sideLength">Masukkan nilai sisi:</label>
                 <input type="number" id="sideLength" name="sideLength" required>
                 <button type="submit" id="calc">Hitung</button>
             </form>
-            <div id="result">
+            <div id="result" style="display: none;">
                 <h3>Hasil Perhitungan:</h3>
                 <p>Keliling :<span id="perimeterResult"></span></p>
                 <p>Luas :<span id="areaResult"></span></p>
@@ -57,7 +57,7 @@
             <div id="option">
                 <h4>Pilih Operasi</h4>
                 <label>
-                    <input type="radio" name="operation" value="perimeter">
+                    <input type="radio" name="operation" value="perimeter" checked>
                     Keliling
                 </label>
                 <label>
@@ -79,5 +79,6 @@
             <p>All rights reserved.</p>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
